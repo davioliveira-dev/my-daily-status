@@ -1,0 +1,25 @@
+{
+  "name": "my-daily-status",
+  "version": "1.0.0",
+  "description": "Projeto \"my Daily Status!\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": "https://github.com/davioliveira-dev/my-daily-status",
+  "author": "davioliveira-dev",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^0.11.0",
+    "dotenv": "^8.2.0",
+    "next": "^9.3.4",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.2.0"
+  }
+}
